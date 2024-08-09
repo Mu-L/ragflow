@@ -10,13 +10,13 @@
                     "llm_name": "gpt-4o-mini",
                     "tags": "LLM,CHAT,128K",
                     "max_tokens": 128000,
-                    "model_type": "image2text"
+                    "model_type": "chat"
                 },
                 {
                     "llm_name": "gpt-4o",
                     "tags": "LLM,CHAT,128K",
                     "max_tokens": 128000,
-                    "model_type": "chat,image2text"
+                    "model_type": "chat"
                 },
                 {
                     "llm_name": "gpt-3.5-turbo",
@@ -112,6 +112,12 @@
                 },
                 {
                     "llm_name": "qwen-vl-max",
+                    "tags": "LLM,CHAT,IMAGE2TEXT",
+                    "max_tokens": 765,
+                    "model_type": "image2text"
+                },
+                {
+                    "llm_name": "qwen-vl-plus",
                     "tags": "LLM,CHAT,IMAGE2TEXT",
                     "max_tokens": 765,
                     "model_type": "image2text"
